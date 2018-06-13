@@ -11,6 +11,7 @@
     "creativestyle/category-hero-extension": "~1.0.0",
     "creativestyle/js-translation-fix-extension": "~1.0.0",
     "creativestyle/pager-extension": "~1.0.0",
+    "creativestyle/theme-creativeshop": "~1.0.0",
     "smile/elasticsuite": "2.5.*"
   }
 }
