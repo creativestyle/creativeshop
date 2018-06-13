@@ -28,12 +28,19 @@ All of the frontend features and improvements are implemented in
 [theme-creativeshop](https://github.com/creativestyle/theme-creativeshop). 
 You won't be able to take advantage of them if you use __Luma__ or other custom theme.
 
+__WARNING!__ We do not support "easy"/"zip" magento installations. Creativeshop supports
+only the s[composer/Integrator](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator_install.html)
+setup.
+
 ## Installation
 
-* `composer require creativestyle/creativeshop ^1.0.0`
-* Configure elasticsuite to use your elasticsearch installation
+* [Install](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator_install.html) Magento if you don't have it yet (optional)
+* Execute `composer require creativestyle/creativeshop ^1.0.0` or add `"creativestyle/creativeshop": "^1.0.0",` to the `require` section of 
+  your `composer.json` file
+* [Configure elasticsuite](https://github.com/Smile-SA/elasticsuite/wiki/ModuleInstall) to use your 
+  [elasticsearch installation](https://github.com/Smile-SA/elasticsuite/wiki/ServerConfig-5.x)
 * Build the theme (next chapter)
-* Switch theme to __Theme Creativeshop__
+* Switch the theme to __Theme Creativeshop__ in admin
 
 ## Building theme-creativeshop
 
