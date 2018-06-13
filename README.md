@@ -2,7 +2,7 @@
   <img alt="creativeshop" width="350" src="https://d3f8ubrix4l58h.cloudfront.net/static/frontend/Creativestyle/theme-creativeshop/en_US/images/creativeshop-logo.png">
 </p>
 
-_A Magento 2 extension escosystem providing UX/performance improvements and many new features._
+_A Magento 2 extension ecosystem providing UX/performance improvements and many new features._
 
 This is a core metapackage which you should install in order to get creativeshop into your
 Magento 2 setup.
