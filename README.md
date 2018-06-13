@@ -64,6 +64,9 @@ yarn
 yarn build
 ```
 
+__TIP__ If `yarn` command fails with `guppy-pre-push: Command failed` you need to run `git init` in the theme's 
+directory as a workaround and retry `yarn`. A permanent solution is on the way.
+
 It will install the build artifacts into `app/design` subfolder.
 
 After the theme is built, clear your Magento cache and you should be able to select it in admin.
