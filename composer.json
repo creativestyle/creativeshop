@@ -1,0 +1,17 @@
+{
+  "name": "creativestyle/creativeshop",
+  "type": "metapackage",
+  "description": "creativeshop metapackage",
+  "homepage": "https://creativestyle.de",
+  "license": "OSL-3.0",
+  "require": {
+    "creativestyle/content-constructor-admin-extension": "~1.0.0",
+    "creativestyle/content-constructor-frontend-extension": "~1.0.0",
+    "creativestyle/content-constructor-category-page-extension": "~1.0.0",
+    "creativestyle/category-hero-extension": "~1.0.0",
+    "creativestyle/js-translation-fix-extension": "~1.0.0",
+    "creativestyle/lazy-resize-extension": "~1.0.0",
+    "creativestyle/pager-extension": "~1.0.0",
+    "smile/elasticsuite": "2.5.*"
+  }
+}
