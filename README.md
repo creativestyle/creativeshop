@@ -7,7 +7,7 @@ _A Magento 2 extension escosystem providing UX/performance improvements and many
 This is a core metapackage which you should install in order to get creativeshop into your
 Magento 2 setup.
 
-Short video presentation of the __creative constructor__ feature:
+Short video presentation of the __Content Constructor__ feature:
 
 <p align="center">
 	<a href="https://vimeo.com/209752359">
