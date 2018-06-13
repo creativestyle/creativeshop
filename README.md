@@ -7,6 +7,10 @@ _A Magento 2 extension ecosystem providing UX/performance improvements and many 
 This is a core metapackage which you should install in order to get creativeshop into your
 Magento 2 setup.
 
+## Demo
+
+_A small peek into to available features, this is by no means exaustive._ 
+
 Short video presentation of the __Content Constructor__ feature:
 
 <p align="center">
@@ -29,17 +33,20 @@ All of the frontend features and improvements are implemented in
 You won't be able to take advantage of them if you use __Luma__ or other custom theme.
 
 __WARNING!__ We do not support "easy"/"zip" magento installations. Creativeshop supports
-only the s[composer/Integrator](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator_install.html)
-setup.
+only the [Integrator / composer](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator_install.html)
+route.
 
 ## Installation
 
-* [Install](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator_install.html) Magento if you don't have it yet (optional)
-* Execute `composer require creativestyle/creativeshop ^1.0.0` or add `"creativestyle/creativeshop": "^1.0.0",` to the `require` section of 
-  your `composer.json` file
-* [Configure elasticsuite](https://github.com/Smile-SA/elasticsuite/wiki/ModuleInstall) to use your 
-  [elasticsearch installation](https://github.com/Smile-SA/elasticsuite/wiki/ServerConfig-5.x)
+__TIP__ *It's advised you either have __[Elasticsuite](https://github.com/Smile-SA/elasticsuite/wiki/GettingStarted)__
+(version 2.5.x) already installed and running. If you don't then this package will install it and you must have 
+__elasticsearch__ up and running on `localhost:9200` prior to executing the `setup:upgrade` or it will fail.*
+
+* (optional) [Install Magento](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/integrator_install.html) if you don't have it yet 
+* Execute `composer require creativestyle/creativeshop ^1.0.0`
+* Execute `bin/magento setup:upgrade`
 * Build the theme (next chapter)
+* Flush Magento cache
 * Switch the theme to __Theme Creativeshop__ in admin
 
 ## Building theme-creativeshop
