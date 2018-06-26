@@ -14,7 +14,7 @@ _A small peek into to available features, this is by no means exaustive._
 Short video presentation of the __Content Constructor__ feature:
 
 <p align="center">
-	<a href="https://vimeo.com/209752359">
+	<a href="https://vimeo.com/229095695">
   		<img width="350" src="https://i.vimeocdn.com/video/625378407.webp?mw=960&mh=540">
   	</a>
 </p>
